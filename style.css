@@ -59,6 +59,7 @@ button {
 button:hover {
     color: #3a3a3a;
 }
+
 /* Heading */
 h3,
 label[for="new-task"] {
@@ -108,7 +109,6 @@ li {
 li > * {
     vertical-align: middle;
 }
-
 li > input[type="checkbox"] {
     margin: 0 10px;
 }
@@ -140,12 +140,10 @@ ul#completed-tasks label {
 ul li input[type=text] {
     display: none;
 }
-
 ul li.editMode input[type=text] {
     display: inline-block;
     width: 224px;
 }
-
 ul li.editMode label {
     display: none;
 }
