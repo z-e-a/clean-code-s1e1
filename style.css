@@ -9,6 +9,7 @@ body {
   margin: 0 auto;
   display: block;
   text-align: right;
+  line-height: 16px;
 }
 .header__logo {
   width: 100%;
@@ -29,6 +30,7 @@ body {
 }
 .task-row-wrapper {
   display: flex;
+  margin-bottom: 15px;
 }
 .todo__task-list{
   margin: 0;
@@ -37,9 +39,6 @@ body {
 .completed__task-list{
   margin: 0;
   padding: 0px;
-}
-.task-item {
-  list-style: none;
 }
 .new-item__add-bnt{
   outline: none;
@@ -71,7 +70,7 @@ body {
   font-size: 18px;
   line-height: 18px;
   width: 318px;  
-  height: 21px;
+  height: 19px;
   padding: 0 9px;
   border: 1px solid #ddd;
   background: #fff;
@@ -87,7 +86,7 @@ body {
 .new-item__caption {
   display: block;
   margin: 0 0 20px;
-  padding-top: 37px; /* for pixel perfect*/
+  padding-top: 47px; /* for pixel perfect*/
 }
 
 /* Task list */
@@ -100,8 +99,9 @@ body {
   vertical-align: middle;
 }
 .task-item {
+  list-style: none;
   overflow: hidden;
-  padding: 20px 0;
+  padding: 19px 0 18px 0;
   border-bottom: 1px solid #eee;
   display: flex;
   justify-content: space-between;
@@ -137,7 +137,7 @@ body {
   font-family: Lato, sans-serif;
   cursor: pointer; 
 }
-.edit, .delete:hover {
+.edit:hover, .delete:hover {
   color: #3a3a3a;
 }
 
