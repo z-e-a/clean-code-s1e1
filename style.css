@@ -1,5 +1,6 @@
 /* Basic Style */
-.main, .header {
+.main,
+.header {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -123,7 +124,8 @@
 .task-item__input:focus {
   color: #333;
 }
-.task-item__edit, .task-item__delete {
+.task-item__edit,
+.task-item__delete {
   outline: none;
   background: none;
   border: 0px;
@@ -133,7 +135,8 @@
   font-family: Lato, sans-serif;
   cursor: pointer; 
 }
-.task-item__edit:hover, .task-item__delete:hover {
+.task-item__edit:hover,
+.task-item__delete:hover {
   color: #3a3a3a;
 }
 .task-item__delete-img {
